@@ -65,13 +65,18 @@ export default {
     background-color: hotpink;
     transform: scale(1.2);
 }
+#score{
+    margin-left: 290px;
+    margin-top: 100px;
+}
 .it{
     height: 120px;
     width: 120px;
+    margin-top: -228px;
 }
 .it div{
     height: 120px;
-    transform: scale(1.25);
+    margin-left: 400px;
     width: 120px;
 }
 .it div.r{

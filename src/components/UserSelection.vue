@@ -25,9 +25,9 @@
                 <div class="col-nd-6 nx-auto">
                     <div class="d-flex flex-row justify-content-between align-items-center">
                         <div class="options">
-                            <div class="r" :class="yourWeapon === 'Rock' ? 'checked' : ''" @click="chooseWeapon('Rock')"></div>
-                            <div class="p" :class="yourWeapon === 'Paper' ? 'checked' : ''" @click="chooseWeapon('Paper')"></div>
-                            <div class="s" :class="yourWeapon === 'Scissor' ? 'checked' : ''" @click="chooseWeapon('Scissor')"></div>
+                            <div class="r" :class="yourWeapon === 'Rock' ? 'checked' : ''" @click="chooseWeapon('Rock')">Rock</div>
+                            <div class="p" :class="yourWeapon === 'Paper' ? 'checked' : ''" @click="chooseWeapon('Paper')">Paper</div>
+                            <div class="s" :class="yourWeapon === 'Scissor' ? 'checked' : ''" @click="chooseWeapon('Scissor')">Scissor</div>
 
                         </div>
                         <div class="game">
